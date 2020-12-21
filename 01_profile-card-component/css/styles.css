@@ -1,0 +1,144 @@
+body {
+  background-color: #19A2AE;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+hr {
+  border-bottom: none;
+  border: 1px #E8E8E8 solid;
+  margin: 35px 0 15px 0;
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 1px 100px 15px rgba(0, 0, 0, 0.3);
+  padding: 50px 0 15px;
+  text-align: center;
+}
+
+.profile-top {
+  background-image: url("../images/bg-pattern-card.svg");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  bottom: 50px;
+  height: 140px;
+  position: relative;
+}
+
+.profile-photo {
+  border-radius: 100%;
+  border: 5px solid #fff;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  top: 86px;
+}
+
+.profile-name {
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.age-text {
+  color: #969696;
+  font-weight: 400;
+}
+
+.location-text {
+  color: #969696;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.socials-stats-element {
+  display: inline-block;
+  margin: 0 6%;
+}
+
+.stats-numbers {
+  font-weight: 700;
+}
+
+.stats-text {
+  color: #969696;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+}
+
+.attribution {
+  bottom: 0;
+  color: #2D3248;
+  font-size: 11px;
+  margin-bottom: 20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.attribution a {
+  color: #003366;
+  font-weight: 700;
+}
+
+.attribution a:hover {
+  color: #006699;
+}
+
+/* Margin set-up on devices */
+
+@media (max-width: 575px) {
+  .socials-stats-element {
+    display: inline;
+    margin: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  body {
+    background-position: -700px -550px, 200px 300px;
+  }
+
+  .container {
+    margin: 20% 20%;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    background-position: -700px -550px, 200px 300px;
+  }
+
+  .container {
+    margin: 20% 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 15% 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    margin: 12% 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-position: -250px -550px, 700px 350px;
+  }
+
+  .container {
+    margin: 10% 37%;
+  }
+}
