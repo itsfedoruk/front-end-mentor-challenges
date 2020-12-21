@@ -1,7 +1,5 @@
 # Frontend Mentor - Profile card component
 
-![Design preview for the Profile card component coding challenge](./mock-ups/desktop-preview.jpg)
-
 ## My live demo ⭐️
 
 For this challenge, I worked with vanilla HTML and CSS – and adapted the page for different views.
@@ -9,6 +7,8 @@ For this challenge, I worked with vanilla HTML and CSS – and adapted the page 
 [Check it out!](https://projects.fedoruk.eu/frontend-mentor/01_profile-card-component/) Any feedback – let me know 🙌
 
 In case you'd like to practice the project yourself, scroll down and follow the challenge instructions.
+
+![Design preview for the Profile card component coding challenge](./mock-ups/desktop-preview.jpg)
 
 ## Welcome! 👋
 
