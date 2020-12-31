@@ -127,6 +127,8 @@ p {
     color: #502050;
 }
 
+/** Desktop **/
+
 @media (min-width: 1200px) {
     body {
         background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
@@ -227,5 +229,30 @@ p {
         left: 0;
         position: relative;
         top: 10%;
+    }
+}
+
+/** Tablet view **/
+
+@media (min-width: 750px) and (max-width: 1199px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .right-rating {
+        margin: 7% 0;
+    }
+
+    .rating-box {
+        padding: 0;
+        margin: 2% 4%;
+    }
+
+    .stars-5-rating {
+        padding: 3% 0 2%;
+    }
+
+    .card {
+        padding: 3% 5%;
     }
 }
