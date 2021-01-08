@@ -125,6 +125,7 @@ body {
 
 .share-box--hidden {
     opacity: 0;
+    visibility: hidden;
 }
 
 .share-box__label {
