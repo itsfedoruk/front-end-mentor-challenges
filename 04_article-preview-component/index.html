@@ -35,13 +35,13 @@
           <p class="author__pub-date">28 Jun 2020</p>
         </div>
       </div>
-      <div class="share-box share-box--hidden">
+      <div id="share-box" class="share-box share-box--hidden">
         <p class="share-box__label">Share</p>
         <button aria-label="Share on Facebook" class="btn btn__social-icon"><i class="fab fa-facebook-square"></i></button>
         <button aria-label="Share on Twitter" class="btn btn__social-icon"><i class="fab fa-twitter"></i></button>
         <button aria-label="Share on Pinterest" class="btn btn__social-icon"><i class="fab fa-pinterest"></i></button>
       </div>
-      <button aria-label="Share" class="btn btn__share-icon btn__share-icon--static"><i class="fas fa-share"></i></button>
+      <button aria-controls="share-box" aria-expanded="false" aria-label="Open share options" class="btn btn__share-icon btn__share-icon--static"><i class="fas fa-share"></i></button>
     </div>
   </main>
   <footer>

@@ -113,6 +113,10 @@ body {
     top: 20px;
 }
 
+.btn__social-icon:hover {
+    color: #d5d6d6;
+}
+
 .share-box {
     background-color: #48556A;
     position: absolute;
