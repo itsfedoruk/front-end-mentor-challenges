@@ -1,7 +1,115 @@
-.attribution {
-    font-size: 11px; text-align: center; 
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #202046;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+footer img {
+    background-image: url("../images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    z-index: -1;
+}
+
+.testimonials-slider {
+    max-width: 375px;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    margin: 0 5%;
+}
+
+.testimonial__photo {
+    padding: 14% 10% 10%;
+    background-image: url("../images/pattern-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    background-size: 325px;
+}
+
+.testimonial__photo img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 20px 50px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -15px;
+}
+
+.testimonial__review {
+    background-image: url("../images/pattern-quotes.svg");
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position: 150px -3px;
+    padding-top: 8%;
+}
+
+.testimonial__text {
+    padding: 0 10% 7%;
+}
+
+.testimonial__name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.testimonial__position {
+    color: 	#babacf;
+    font-size: 16px;
+}
+
+.testimonial__btn {
+    cursor: pointer;
+    position: absolute;
+    top: 265px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 2%;
+    left: 0;
+    right: 0;
+    width: 80px;
+    border-radius: 25px;
+    margin: auto;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.testimonial__btn--prev {
+    position: relative;
+    left: -10px;
+}
+
+.testimonial__btn--next {
+    position: relative;
+    right: -10px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.attribution a {  
+    color: #3E52A3;
+    font-weight: 500;
 }
