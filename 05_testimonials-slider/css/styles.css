@@ -113,3 +113,56 @@ footer img {
     color: #3E52A3;
     font-weight: 500;
 }
+
+@media (min-width: 900px) {
+    body {
+        flex-direction: row;
+    }
+
+    .testimonials-slider {
+        min-width: 800px;
+    }
+
+    .testimonial {
+        grid-template-areas: "testimonial__photo testimonial__review";
+        position: relative;
+        grid-gap: 290px;
+    }
+
+    .testimonial__photo {
+        grid-area: testimonial__photo;
+        grid-column: 2;
+        background-size: 525px;
+        width: 600px;
+        background-position: 40px 10px;
+    }
+
+    .testimonial__photo img {
+        width: 400px;
+    }
+
+    .testimonial__review {
+        grid-area: testimonial__review;
+        grid-column: 1;
+        text-align: left;
+        background-position: 80px 35px;
+        position: absolute;
+        bottom: 190px;
+    }
+
+    .testimonial__text {
+        max-width: 470px;
+        font-size: 1.3rem;
+        padding: 0;
+    }
+
+    .testimonial__name, .testimonial__position {
+        display: inline-block;
+        margin: 20px 5px 0 0;
+    }
+
+    .testimonial__btn {
+        top: 433px;
+        left: 150px;
+    }
+}
