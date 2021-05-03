@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <main class="testimonials-slider">
+  <main id="testimonials-slider" class="testimonials-slider">
     <div class="testimonial">
       <div class="testimonial__photo">
         <img src="images/image-tanya.jpg" alt="Tanya Sinclair, a young dark-haired white woman in a white blouse, dark blue jacket, and a red scarve, is looking into the camera.">
@@ -44,8 +44,8 @@
       </div>
     </div>
     <div class="testimonial__btn">
-      <button onclick="plusSlides(-1)" class="testimonial__btn--prev"><img width="10px" height="14px" src="images/icon-prev.svg" alt="" aria-controls="testimonial-slider" aria-label="View the previous testimonial"></button>
-      <button onclick="plusSlides(1)" class="testimonial__btn--next"><img width="10px" height="14px" src="images/icon-next.svg" alt="" aria-controls="testimonial-slider" aria-label="View the next testimonial"></button>
+      <button onclick="plusSlides(-1)" class="testimonial__btn--prev" aria-controls="testimonials-slider" aria-label="View the previous testimonial"><img src="images/icon-prev.svg" alt=""></button>
+      <button onclick="plusSlides(1)" class="testimonial__btn--next" aria-controls="testimonials-slider" aria-label="View the next testimonial"><img src="images/icon-next.svg" alt=""></button>
     </div>
   </main>
   <footer>
