@@ -39,7 +39,7 @@ footer img {
     padding: 14% 10% 10%;
     background-image: url("../images/pattern-bg.svg");
     background-repeat: no-repeat;
-    background-position: 0 5px;
+    background-position: 30px 5px;
     background-size: 325px;
 }
 
@@ -60,7 +60,7 @@ footer img {
 }
 
 .testimonial__text {
-    padding: 0 10% 7%;
+    padding: 0 7% 5%;
 }
 
 .testimonial__name {
@@ -74,12 +74,11 @@ footer img {
 }
 
 .testimonial__btn {
-    cursor: pointer;
     position: absolute;
     top: 265px;
     display: inline-block;
     background-color: #fff;
-    padding: 2%;
+    padding: 2% 1%;
     left: 0;
     right: 0;
     width: 80px;
@@ -89,14 +88,21 @@ footer img {
     -webkit-user-select: none;
 }
 
-.testimonial__btn--prev {
+.testimonial__btn--prev, .testimonial__btn--next {
+    cursor: pointer;
     position: relative;
-    left: -10px;
+    display: inline-block;
+    border: none;
+    background-color: #fff;
+    /* left: -10px; */
+}
+
+.testimonial__btn--prev {
+    left: -5px;
 }
 
 .testimonial__btn--next {
-    position: relative;
-    right: -10px;
+    right: -5px;
 }
 
 .attribution {
@@ -106,7 +112,7 @@ footer img {
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .attribution a {  
@@ -126,7 +132,7 @@ footer img {
     .testimonial {
         grid-template-areas: "testimonial__photo testimonial__review";
         position: relative;
-        grid-gap: 290px;
+        grid-gap: 280px;
     }
 
     .testimonial__photo {
