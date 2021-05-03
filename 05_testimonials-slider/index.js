@@ -18,3 +18,18 @@ function showSlides(n) {
 
   slides[slideIndex-1].style.display = "grid";
 }
+
+document.addEventListener("keydown", function(e) {
+  typeSlide(e.key);
+});
+
+function typeSlide(key) {
+  switch (key) {
+    case "ArrowLeft":
+      plusSlides(-1);
+      break;
+    case "ArrowRight":
+      plusSlides(1);
+      break;
+  }
+}
