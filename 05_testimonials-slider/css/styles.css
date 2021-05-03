@@ -16,15 +16,10 @@ body {
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
-}
-
-footer img {
     background-image: url("../images/pattern-curve.svg");
     background-repeat: no-repeat;
-    position: absolute;
-    bottom: -50px;
-    left: -50px;
-    z-index: -1;
+    background-position: left bottom;
+    background-attachment: fixed;
 }
 
 .testimonials-slider {
@@ -32,7 +27,6 @@ footer img {
     position: relative;
     text-align: center;
     top: 20px;
-    margin: 0 5%;
 }
 
 .testimonial__photo {
@@ -76,12 +70,11 @@ footer img {
 .testimonial__btn {
     position: absolute;
     top: 265px;
-    display: inline-block;
     background-color: #fff;
-    padding: 2% 1%;
+    padding: 2% 0;
     left: 0;
     right: 0;
-    width: 80px;
+    width: 90px;
     border-radius: 25px;
     margin: auto;
     -moz-user-select: none;
@@ -94,7 +87,6 @@ footer img {
     display: inline-block;
     border: none;
     background-color: #fff;
-    /* left: -10px; */
 }
 
 .testimonial__btn--prev {
