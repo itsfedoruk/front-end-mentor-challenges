@@ -1,5 +1,6 @@
 # Ignore Mac system files
 .DS_store
+.prettierignore
 
 # Ignore node_modules folder
 node_modules
@@ -16,3 +17,8 @@ node_modules
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Ignore design files
+*.sketch
+*.fig
+*.xd
