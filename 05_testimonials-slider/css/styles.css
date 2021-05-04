@@ -40,7 +40,7 @@ body {
 .testimonial__photo img {
     width: 250px;
     border-radius: 10px;
-    box-shadow: 1px 20px 50px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 20px 50px 1px rgba(0, 0, 0, 0.13);
     position: relative;
     top: -15px;
 }
@@ -67,39 +67,40 @@ body {
     font-size: 16px;
 }
 
+.btn {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+
+.btn:hover {
+    background-color: #e7e7f5;
+    transition: ease 0.3s;
+}
+
 .testimonial__btn {
     position: absolute;
-    top: 265px;
     background-color: #fff;
-    padding: 2% 0;
-    left: 0;
-    right: 0;
-    width: 90px;
+    top: 270px;
+    left: 140px;
     border-radius: 25px;
-    margin: auto;
-    -moz-user-select: none;
-    -webkit-user-select: none;
+    font-size: 0;
+    filter: drop-shadow(1px 3px 15px rgba(0, 0, 0, 0.05));
 }
 
-.testimonial__btn--prev, .testimonial__btn--next {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-    border: none;
-    background-color: #fff;
-}
-
-.testimonial__btn--prev img, .testimonial__btn--next img {
+.btn img {
     width: 10px;
     height: 14px;
 }
 
 .testimonial__btn--prev {
-    left: -5px;
+    border-radius: 25px 0 0 25px;
 }
 
 .testimonial__btn--next {
-    right: -5px;
+    border-radius: 0 25px 25px 0;
 }
 
 .attribution {
@@ -164,8 +165,13 @@ body {
         margin: 20px 5px 0 0;
     }
 
+    .btn {
+        width: 50px;
+        height: 50px;
+    }
+
     .testimonial__btn {
-        top: 433px;
-        left: 150px;
+        top: 445px;
+        left: 430px;
     }
 }
