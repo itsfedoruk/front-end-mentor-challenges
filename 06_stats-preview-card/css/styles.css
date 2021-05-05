@@ -98,3 +98,51 @@ body {
     color: #9e4cd1b6;
     transition: ease-in 0.2s;
 }
+
+@media (min-width: 1000px) {
+    .preview-card {
+        max-width: 900px;
+        display: flex;
+        flex-direction: row-reverse;
+        top: 150px;
+    }
+
+    .card__hero {
+        height: 331px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 10px;
+    }
+
+    .card__hero-img {
+        width: 400px;
+        height: 331px;
+    }
+
+    .card__content {
+        text-align: left;
+        padding: 5% 7% 5%;
+        width: 500px;
+    }
+
+    .card__description {
+        margin: 7% 0 9%;
+        line-height: 1.7rem;
+    }
+
+    .card__stats {
+        flex-direction: row;
+    }
+
+    .stats__blocks {
+        margin-right: 15%;
+        margin-bottom: 0;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        margin-bottom: 17px;
+    }
+}
