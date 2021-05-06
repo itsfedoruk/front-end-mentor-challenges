@@ -71,7 +71,7 @@ body {
 
 .stats__numbers {
     color: hsl(0, 0%, 100%);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Lexend Deca', sans-serif;
     margin-bottom: 1%;
@@ -79,12 +79,12 @@ body {
 
 .stats__text {
     text-transform: uppercase;
-    font-size: 0.625rem;
+    font-size: 0.7rem;
     letter-spacing: 0.1rem;
 }
 
 .attribution { 
-    font-size: 0.6875rem;
+    font-size: 0.7rem;
     text-align: center; 
     position: relative;
     bottom: -45px;
