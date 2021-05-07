@@ -16,13 +16,13 @@ body {
     justify-content: center;
     background-color:  	#090b1a;
     flex-direction: column;
+    height: 100vh;
 }
 
 .preview-card {
     max-width: 320px;
     text-align: center;
     background-color: #1b1938;
-    top: 20px;
     position: relative;
     border-radius: 10px;
 }
@@ -87,7 +87,7 @@ body {
     font-size: 0.7rem;
     text-align: center; 
     position: relative;
-    bottom: -45px;
+    bottom: -20px;
 }
 
 .attribution a { 
@@ -104,7 +104,6 @@ body {
         max-width: 900px;
         display: flex;
         flex-direction: row-reverse;
-        top: 150px;
     }
 
     .card__hero {
@@ -140,9 +139,8 @@ body {
 
     .attribution {
         position: absolute;
-        bottom: 0;
+        bottom: 14px;
         right: 0;
         width: 100%;
-        margin-bottom: 17px;
     }
 }
