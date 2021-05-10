@@ -52,32 +52,36 @@ body {
     border-radius: 10px;
     margin: 5% 0;
     padding: 7% 10%;
-    box-shadow: 1px 5px 30px hsl(229, 6%, 86%);
+    box-shadow: 1px 10px 15px hsl(229, 35%, 90%);
     position: relative;
     background-repeat: no-repeat;
     background-position: 250px 150px;
     background-size: 55px;
-    animation: cards-movement 2s;
+    /* animation: cards-movement 2s; */
 }
 
 .card--cyan {
     border-top: 5px solid hsl(180, 62%, 55%);
     background-image: url("../images/icon-supervisor.svg");
+    animation: cards-movement 2s 0.3s backwards;
 }
 
 .card--red {
     border-top: 5px solid hsl(0, 78%, 62%);
     background-image: url("../images/icon-team-builder.svg");
+    animation: cards-movement 2s 0.5s backwards;
 }
 
 .card--orange {
     border-top: 5px solid hsl(34, 97%, 64%);
     background-image: url("../images/icon-karma.svg");
+    animation: cards-movement 2s 0.8s backwards;
 }
 
 .card--blue {
     border-top: 5px solid hsl(212, 86%, 64%);
     background-image: url("../images/icon-calculator.svg");
+    animation: cards-movement 2s 1s backwards;
 }
 
 .card__title {
@@ -112,5 +116,43 @@ body {
     100% {
         bottom: 0;
         opacity: 1;
+    }
+}
+
+@media (min-width: 1150px) {
+    .feature-section {
+        max-width: 1150px;
+    }
+
+    .feature-section__title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-bottom: 2%;
+    }
+
+    .feature-section__description {
+        margin: 0 300px;
+    }
+
+    .feature-section__cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 4%;
+    }
+
+    .card {
+        height: 250px;
+        width: 340px;
+        padding: 3% 4%;
+        margin: 1%;
+    }
+
+    .card--orange {
+        order: 1;
+    }
+
+    .card--pushed-down {
+        transform: translateY(50%);
     }
 }
