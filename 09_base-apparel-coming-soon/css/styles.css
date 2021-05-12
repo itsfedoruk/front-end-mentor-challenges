@@ -1,8 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: hsl(0, 36%, 70%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)) fixed;
+}
+
+.cs-page {
+    margin-bottom: 20px;
+}
+
+.cs-page__nav {
+    background: url("../images/logo.svg") no-repeat #fff;
+    background-size: 110px;
+    background-position: 30px 30px;
+    height: 80px;
+}
+
+.hero__img {
+    background-size: cover;
+    width: 100%;
+}
+
+.hero__content {
+    margin: 15% 0 10%;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.hero__headline {
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin: 0 5%;
+    font-size: 2.5rem;
+}
+
+.hero__headline--strong {
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+}
+
+.hero__paragraph {
+    margin: 7% 0 10%;
+    line-height: 1.4rem;
+    font-weight: 400;
+}
+
+.email-signup {
+    position: relative;
+    margin: 0 5%;
+}
+
+.email-signup__input {
+    border-radius: 25px;
+    border: 1px solid hsl(0, 36%, 70%);
+    padding: 4% 7% 3%;
+    color: hsl(0, 36%, 70%);
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    width: 100%;
+    height: 40px;
+    outline: none;
+}
+
+.email-signup__submit-btn {
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    color: #fff;
+    border-radius: 25px;
+    padding: 0 7%;
+    border: 1px solid hsl(0, 36%, 70%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    height: 40px;
+    font-size: 1rem;
+    box-shadow: -3px 10px 20px hsl(0, 80%, 88%);
+    cursor: pointer;
+}
+
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 0.7rem; 
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(0, 6%, 24%); 
+    transition: ease-in 0.3s;
+}
+
+.attribution a:hover { 
+    color: hsla(0, 6%, 24%, 0.774); 
 }
